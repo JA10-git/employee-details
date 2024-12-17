@@ -1,0 +1,51 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F4EEEE"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Search Employee\n\n\n"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:text="Employee Code:"
+        />
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee code"
+        android:id="@+id/name"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#73D5D7"
+        android:text="search"
+        android:textStyle="bold"
+        android:id="@+id/search"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#73D5D7"
+        android:text="back to menu"
+        android:textStyle="bold"
+        android:id="@+id/bakmen"/>
+</LinearLayout>
